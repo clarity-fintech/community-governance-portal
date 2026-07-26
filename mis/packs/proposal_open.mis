@@ -1,0 +1,168 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Community Governance Portal · ProposalOpen
+
+module CommunityGovernancePortalProposalOpen {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_proposal_open_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant proposal_open_001: proposal_open_001_bound == true;
+  invariant proposal_open_002: proposal_open_002_bound == true;
+  invariant proposal_open_003: proposal_open_003_bound == true;
+  invariant proposal_open_004: proposal_open_004_bound == true;
+  invariant proposal_open_005: proposal_open_005_bound == true;
+  invariant proposal_open_006: proposal_open_006_bound == true;
+  invariant proposal_open_007: proposal_open_007_bound == true;
+  invariant proposal_open_008: proposal_open_008_bound == true;
+  invariant proposal_open_009: proposal_open_009_bound == true;
+  invariant proposal_open_010: proposal_open_010_bound == true;
+  invariant proposal_open_011: proposal_open_011_bound == true;
+  invariant proposal_open_012: proposal_open_012_bound == true;
+  invariant proposal_open_013: proposal_open_013_bound == true;
+  invariant proposal_open_014: proposal_open_014_bound == true;
+  invariant proposal_open_015: proposal_open_015_bound == true;
+  invariant proposal_open_016: proposal_open_016_bound == true;
+  invariant proposal_open_017: proposal_open_017_bound == true;
+  invariant proposal_open_018: proposal_open_018_bound == true;
+  invariant proposal_open_019: proposal_open_019_bound == true;
+  invariant proposal_open_020: proposal_open_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_001(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_002(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_003(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_004(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_005(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_006(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_007(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_008(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_009(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_010(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_011(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_012(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_013(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_014(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_015(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_016(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_017(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_018(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_019(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_proposal_open_020(payload: Bytes) {
+    require payload != @0;
+    constraint proposal_open_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

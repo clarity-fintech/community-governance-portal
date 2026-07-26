@@ -1,0 +1,240 @@
+{
+  "schema": "clrty.mis_repo/v1",
+  "creator": "Chandler William Ferguson",
+  "org": "clarity-fintech",
+  "repo": "community-governance-portal",
+  "title": "Community Governance Portal",
+  "domain": "community_governance_portal",
+  "deep_root": {
+    "language": "moniversive",
+    "dialect": "mis-ml",
+    "extension": ".mis",
+    "language_root": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json",
+    "settlement_network": "clrty-1",
+    "settlement_chain_id": 1202,
+    "letter_hash": "sha256-rolling-typed-letter/v1",
+    "compiler": "bin/misc"
+  },
+  "kernel": "mis/kernel/CommunityGovernancePortalKernel.mis",
+  "backlink_index": "mis/backlinks/MisBacklinkIndex.mis",
+  "packs": [
+    {
+      "name": "ProposalOpen",
+      "slug": "proposal_open",
+      "band": "1..=20",
+      "module": "mis/packs/proposal_open.mis",
+      "ids": [
+        "proposal_open_001",
+        "proposal_open_002",
+        "proposal_open_003",
+        "proposal_open_004",
+        "proposal_open_005",
+        "proposal_open_006",
+        "proposal_open_007",
+        "proposal_open_008",
+        "proposal_open_009",
+        "proposal_open_010",
+        "proposal_open_011",
+        "proposal_open_012",
+        "proposal_open_013",
+        "proposal_open_014",
+        "proposal_open_015",
+        "proposal_open_016",
+        "proposal_open_017",
+        "proposal_open_018",
+        "proposal_open_019",
+        "proposal_open_020"
+      ]
+    },
+    {
+      "name": "DebateWindow",
+      "slug": "debate_window",
+      "band": "21..=40",
+      "module": "mis/packs/debate_window.mis",
+      "ids": [
+        "debate_window_021",
+        "debate_window_022",
+        "debate_window_023",
+        "debate_window_024",
+        "debate_window_025",
+        "debate_window_026",
+        "debate_window_027",
+        "debate_window_028",
+        "debate_window_029",
+        "debate_window_030",
+        "debate_window_031",
+        "debate_window_032",
+        "debate_window_033",
+        "debate_window_034",
+        "debate_window_035",
+        "debate_window_036",
+        "debate_window_037",
+        "debate_window_038",
+        "debate_window_039",
+        "debate_window_040"
+      ]
+    },
+    {
+      "name": "VoteTally",
+      "slug": "vote_tally",
+      "band": "41..=60",
+      "module": "mis/packs/vote_tally.mis",
+      "ids": [
+        "vote_tally_041",
+        "vote_tally_042",
+        "vote_tally_043",
+        "vote_tally_044",
+        "vote_tally_045",
+        "vote_tally_046",
+        "vote_tally_047",
+        "vote_tally_048",
+        "vote_tally_049",
+        "vote_tally_050",
+        "vote_tally_051",
+        "vote_tally_052",
+        "vote_tally_053",
+        "vote_tally_054",
+        "vote_tally_055",
+        "vote_tally_056",
+        "vote_tally_057",
+        "vote_tally_058",
+        "vote_tally_059",
+        "vote_tally_060"
+      ]
+    },
+    {
+      "name": "QuorumBound",
+      "slug": "quorum_bound",
+      "band": "61..=80",
+      "module": "mis/packs/quorum_bound.mis",
+      "ids": [
+        "quorum_bound_061",
+        "quorum_bound_062",
+        "quorum_bound_063",
+        "quorum_bound_064",
+        "quorum_bound_065",
+        "quorum_bound_066",
+        "quorum_bound_067",
+        "quorum_bound_068",
+        "quorum_bound_069",
+        "quorum_bound_070",
+        "quorum_bound_071",
+        "quorum_bound_072",
+        "quorum_bound_073",
+        "quorum_bound_074",
+        "quorum_bound_075",
+        "quorum_bound_076",
+        "quorum_bound_077",
+        "quorum_bound_078",
+        "quorum_bound_079",
+        "quorum_bound_080"
+      ]
+    },
+    {
+      "name": "ExecuteUpgrade",
+      "slug": "execute_upgrade",
+      "band": "81..=100",
+      "module": "mis/packs/execute_upgrade.mis",
+      "ids": [
+        "execute_upgrade_081",
+        "execute_upgrade_082",
+        "execute_upgrade_083",
+        "execute_upgrade_084",
+        "execute_upgrade_085",
+        "execute_upgrade_086",
+        "execute_upgrade_087",
+        "execute_upgrade_088",
+        "execute_upgrade_089",
+        "execute_upgrade_090",
+        "execute_upgrade_091",
+        "execute_upgrade_092",
+        "execute_upgrade_093",
+        "execute_upgrade_094",
+        "execute_upgrade_095",
+        "execute_upgrade_096",
+        "execute_upgrade_097",
+        "execute_upgrade_098",
+        "execute_upgrade_099",
+        "execute_upgrade_100"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LanguageRoot",
+      "path": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json"
+    },
+    {
+      "name": "MisCodeIndex",
+      "path": "CLRTY_SUBSTRATE/boot/mis_code_index.json"
+    },
+    {
+      "name": "MisEcosystemRepos",
+      "path": "CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json"
+    },
+    {
+      "name": "StaticMlCatalog",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json"
+    },
+    {
+      "name": "MisNativeKernels",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_native_kernels_776_875.json"
+    },
+    {
+      "name": "MisArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_architecture_primitives_876_975.json"
+    },
+    {
+      "name": "MisChainIntake",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_chain_intake_976_1025.json"
+    },
+    {
+      "name": "GradientBand",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_gradient_invariants_201_300.json"
+    },
+    {
+      "name": "TickArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_architecture.json"
+    },
+    {
+      "name": "TickStakingGradient",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_staking_gradient_propagation.json"
+    },
+    {
+      "name": "ProtocolStructures",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_protocol_structures_100.json"
+    },
+    {
+      "name": "MisKernelActiveOnly",
+      "path": "CLRTY_SUBSTRATE/boot/mis_kernel_active_only.json"
+    },
+    {
+      "name": "MisKernelSource",
+      "path": "moniversive/framework/mis_kernel.mis"
+    },
+    {
+      "name": "MisAllCodeIndex",
+      "path": "moniversive/framework/MisAllCodeIndex.mis"
+    },
+    {
+      "name": "MlKernelRepo",
+      "path": "https://github.com/clarity-fintech/moniversive_invariant_static_ML"
+    },
+    {
+      "name": "ClrtyMisKernelRepo",
+      "path": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+    },
+    {
+      "name": "MiscCompiler",
+      "path": "bin/misc"
+    }
+  ],
+  "clrty1": {
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "siblings": {
+    "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
+    "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+  }
+}
